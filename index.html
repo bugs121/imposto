@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+    <title>Index</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!--<script src="https://code..jquery.com/jquery-3.4.1.js"></script>-->
+    <script src="javi.js"></script>
+    <meta name="viewport" content="width=device-widht,initial-scale=1.0">
+  </head>
+  <body>
+      <nav>
+          <label class="logo">Cálculo Sálario</label>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="file:///C:/Users/pedro/Desktop/programa%C3%A7ao/eu%20e%20marco%20BT/empresa.html">Empresa</a></li>
+              <li><a href="#">Sobre nós</a></li>
+          </ul>
+          <label id="icon">
+                <i class="fas fa-bars"></i>
+          </label>
+      </nav><br><br><br>
+    <form>
+        <h2>Coloque os valores:</h2><br>
+        <div class="container">
+        <label><b>Nome:</b></label>
+        <hr>
+        <input id="inputnome" style="border-color: black;">
+        <hr>
+        <label><b>Horas Trabalhadas:</b></label>
+        <hr>
+        <input type="number" id="inputtempo" style="border-color: black;">
+        <hr>
+        <label><b>Valor para cada hora trabalhada:</b></label>
+        <hr>
+        <input type="numer" id="inputvalor" style="border-color: black;">
+    </div>
+    <div>
+        <button class="butown" style="width: 45%;" onclick="calculo()"><b>Calcular</b></button>
+        <button class="butown" type="reset" style="width: 45%;" onclick="reseta()"><b>Limpar</b></button>
+        <button class="butown" style="width: 90%;" onclick="historico()"><b>Historico</b></button>
+    </div>
+    </form>
+    <br>
+  </body>
+</html>
